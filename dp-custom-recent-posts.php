@@ -128,12 +128,12 @@ class dp_custom_recent_posts_widget extends WP_Widget {
 		<input class="widefat" id="<?php echo $this->get_field_id('title'); ?>" name="<?php echo $this->get_field_name('title'); ?>" type="text" value="<?php echo $title; ?>" /></p>
 
 		<p>
-		<label for="<?php echo $this->get_field_id('number_posts'); ?>"><?php _e('Anzahl Custom Posts:'); ?></label>
+		<label for="<?php echo $this->get_field_id('number_posts'); ?>"><?php _e('Number of Custom Posts:'); ?></label>
 		<input id="<?php echo $this->get_field_id('number_posts'); ?>" name="<?php echo $this->get_field_name('number_posts'); ?>" type="text" value="<?php echo $number_posts; ?>" size="3" /><br />
 		
 		
-		<label for="<?php echo $this->get_field_id('number'); ?>"><?php _e('Anzahl Elemente in Dropdown Liste:'); ?></label>
-		<input id="<?php echo $this->get_field_id('number'); ?>" name="<?php echo $this->get_field_name('number'); ?>" type="text" value="<?php echo $number; ?>" size="3" /><small><?php _e('(at most 30)'); ?></small>
+		<label for="<?php echo $this->get_field_id('number'); ?>"><?php _e('Number of elements in dropdown list'); ?></label>
+		<input id="<?php echo $this->get_field_id('number'); ?>" name="<?php echo $this->get_field_name('number'); ?>" type="text" value="<?php echo $number; ?>" size="3" />
 		</p>
 		
 		<?php
@@ -150,7 +150,7 @@ class dp_custom_recent_posts_widget extends WP_Widget {
 		<div id="dp_input_container" >
 		<?php if ($number_posts){ ?>
 			<select id="selected_post" style="width:300px;">
-			<option value="0">[Blog auswählen und hinzufügen klicken]</option>
+			<option value="0">[Select post and click "Add..."]</option>
 			
 			<?php
 			//drop down list
@@ -165,7 +165,7 @@ class dp_custom_recent_posts_widget extends WP_Widget {
 			
 			</select>
 		
-			<input name="addSelectedPost" type="button" value="Hinzufügen..." onClick="javascript:addPost()">
+			<input name="addSelectedPost" type="button" value="Add..." onClick="javascript:addPost()">
 			
 		<?php } ?>
 		<br />

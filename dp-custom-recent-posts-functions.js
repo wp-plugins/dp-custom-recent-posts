@@ -9,7 +9,7 @@
 		var titlelines = [];
 		var titlenewlines = []; 
 		idnewlines[0] = select_value;
-		titlenewlines[0] = "Klicke speichern...";
+		titlenewlines[0] = "Press Save...";
 		var str;
 
 		for (var i=1; i<=number_lines; i++){
