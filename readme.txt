@@ -11,7 +11,7 @@ Create your custom, recent posts list by choosing certain post from a drop down 
 == Description ==
 
 Create your custom, recent posts list by choosing certain post from a drop down list. 
-This plugin is similar to the default "recent posts" plugin of Wordpress, but you can choose specific posts you want to show up in the widget.
+This plugin is similar to the default 'recent posts' plugin of Wordpress, but you can choose specific posts you want to show up in the widget.
 
 
 == Installation ==
