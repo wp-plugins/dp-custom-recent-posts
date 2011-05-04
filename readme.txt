@@ -3,7 +3,7 @@ Contributors: WP-DanP
 Tags: posts, recent, custom recent posts list
 Requires at least: 2.0.2
 Tested up to: 2.9.2
-Stable tag: "trunk"
+Stable tag: trunk
 
 Create your custom, recent posts list by choosing certain post from a drop down list. 
 
