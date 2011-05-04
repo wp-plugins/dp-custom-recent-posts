@@ -40,9 +40,3 @@ The number in the dropdown list is the post's ID. You can also type in the post'
 
 = 0.9 =
 * First version of this plugin.
-
-== Upgrade Notice ==
-
-== Arbitrary section ==
-
-== A brief Markdown Example ==
